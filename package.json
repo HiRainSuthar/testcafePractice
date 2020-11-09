@@ -1,0 +1,20 @@
+{
+  "name": "cafeproject",
+  "version": "1.0.0",
+  "description": "This is practice project for testcafe",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "testcafe",
+    "posttest": "node support/report-generator.js"
+  },
+  "author": "Hireyn Suthar",
+  "license": "ISC",
+  "devDependencies": {
+    "multiple-cucumber-html-reporter": "^1.18.0",
+    "testcafe": "^1.9.4",
+    "testcafe-reporter-cucumber-json": "^6.2.0"
+  }
+}

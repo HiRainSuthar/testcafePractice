@@ -1,0 +1,24 @@
+{
+    "browsers": [
+        "chrome",
+        "firefox:headless"
+    ],
+    "src": "tests/*.js",
+    "reporter": [
+        {
+            "name": "xunit",
+            "output": "reports/report.xml"
+        },
+        {
+            "name": "cucumber-json"
+        }
+    ],
+    "screenshots": {
+        "path": "screenshots/",
+        "takeOnFails": true,
+        "fullPage": true
+    },
+    "selectorTimeout": 3000,
+    "assertionTimeout": 1000,
+    "pageLoadTimeout": 10000
+}
