@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite name="TestCafe Tests: Chrome 86.0.4240.183 / Windows 10, Firefox 81.0 / Windows 10" tests="2" failures="0" skipped="0" errors="0" time="15.376" timestamp="Mon, 09 Nov 2020 08:36:55 GMT" >
-  <testcase classname="Getting Started" name="My first test" time="8.984">
+<testsuite name="TestCafe Tests: Chrome 86.0.4240.183 / Windows 10, Firefox 81.0 / Windows 10" tests="2" failures="0" skipped="0" errors="0" time="16.715" timestamp="Mon, 09 Nov 2020 10:06:57 GMT" >
+  <testcase classname="Getting Started" name="My first test" time="7.95">
   </testcase>
-  <testcase classname="Getting Started" name="My second test click " time="6.301">
+  <testcase classname="Getting Started" name="My second test click " time="8.847">
   </testcase>
 </testsuite>

@@ -7,8 +7,10 @@
     "test": "tests"
   },
   "scripts": {
+    "pretest": "npm run cleanReports",
     "test": "testcafe",
-    "posttest": "node support/report-generator.js"
+    "posttest": "node support/report-generator.js",
+    "cleanReports": "rm -rf cucumber-json-reports"
   },
   "author": "Hireyn Suthar",
   "license": "ISC",
